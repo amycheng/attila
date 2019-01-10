@@ -8,31 +8,25 @@
 
 	<meta name="HandheldFriendly" content="True" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+	<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+	<link rel="stylesheet" href="https://use.typekit.net/jda2dwy.css">
 	<link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
-
 	{{ghost_head}}
 </head>
 
 <body class="{{body_class}}">
-
-	{{navigation}}
-
 	<section id="wrapper">
 		<a class="hidden-close"></a>
 		{{{body}}}
 		<div id="body-class" style="display: none;" class="{{body_class}}"></div>
-
-		<footer id="footer">
-			<div class="inner">
-				<section class="credits">
-					<span class="credits-theme">{{t "Theme" }} <a href="https://github.com/zutrinken/attila">Attila</a> {{t "by"}} <a href="https://zutrinken.com" rel="nofollow">zutrinken</a></span>
-					<span class="credits-software">{{t "Published with"}} <a href="https://ghost.org">Ghost</a></span>
-				</section>
-			</div>
-		</footer>
 	</section>
-
+		<footer id="footer">
+			<p>
+			This blog is written by <a href="https://twitter.com/am3thyst">Amy</a>, a web developer who is also interested in making art with code. Learn about the programmer's retreat/Recurse Center <a target="_blank" href="https://www.recurse.com/">here</a>.
+			</p>
+		</footer>
 	<script type="text/javascript" src="{{asset "js/script.js"}}"></script>
 
 	{{ghost_foot}}
